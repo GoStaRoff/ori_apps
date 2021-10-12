@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "949156463256",
+    "project_id": "orienteering-880d2",
+    "storage_bucket": "orienteering-880d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949156463256:android:637083be485a18775186ed",
+        "android_client_info": {
+          "package_name": "olexandrlitvin.orienteering_ar_compass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949156463256-4uvp4fm4i1mn8gm0mep79ra75qedgp86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "olexandrlitvin.orienteering_ar_compass",
+            "certificate_hash": "0933039069c14d57ecf417a70b5f8c66e79a75ee"
+          }
+        },
+        {
+          "client_id": "949156463256-8770smt1k8l9drd3qba2l89hlgsu22vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYTj1rsJ24kudTJSL9Fk1UgID29dOFDfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949156463256-8770smt1k8l9drd3qba2l89hlgsu22vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

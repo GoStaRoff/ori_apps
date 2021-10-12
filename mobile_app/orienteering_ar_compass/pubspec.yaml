@@ -1,0 +1,62 @@
+name: orienteering_ar_compass
+description: Orienteering-AR-Compass_8
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  dio: ^4.0.0
+  connectivity:
+  intl: ^0.17.0
+  jiffy: ^4.1.0
+  share: ^2.0.4
+  timeago: ^3.1.0
+  location: ^4.0.0
+  flutter_svg: any
+  screenshot: ^1.2.3
+  get_storage: ^2.0.2
+  file_picker: ^4.0.2
+  http_parser: ^4.0.0
+  url_launcher: ^6.0.9
+  flutter_html: ^2.1.0
+  flutter_slidable: any
+  audioplayers: ^0.20.0
+  image_picker: ^0.8.0+3
+  google_sign_in: ^5.0.4
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.2
+  wc_flutter_share: ^0.4.0
+  ar_flutter_plugin: ^0.4.3
+  google_maps_flutter: ^2.0.6
+  graphview: ^1.0.0-nullsafety.1
+  flutter_custom_clippers: ^2.0.0
+  flutter_rounded_date_picker: 2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
