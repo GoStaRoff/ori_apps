@@ -43,14 +43,6 @@ PODS:
     - GoogleUtilities/Environment (~> 7.0)
     - GoogleUtilities/Logger (~> 7.0)
     - nanopb (~> 2.30906.0)
-  - FirebaseFirestore (8.7.0):
-    - FirebaseFirestore/AutodetectLeveldb (= 8.7.0)
-  - FirebaseFirestore/AutodetectLeveldb (8.7.0):
-    - FirebaseFirestore/Base
-    - FirebaseFirestore/WithLeveldb
-  - FirebaseFirestore/Base (8.7.0)
-  - FirebaseFirestore/WithLeveldb (8.7.0):
-    - FirebaseFirestore/Base
   - FirebaseInstallations (7.11.0):
     - FirebaseCore (~> 7.0)
     - GoogleUtilities/Environment (~> 7.0)
@@ -136,7 +128,6 @@ PODS:
 DEPENDENCIES:
   - ar_flutter_plugin (from `.symlinks/plugins/ar_flutter_plugin/ios`)
   - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
-  - FirebaseFirestore (from `https://github.com/invertase/firestore-ios-sdk-frameworks.git`, tag `8.7.0`)
   - Flutter (from `Flutter`)
   - flutter_compass (from `.symlinks/plugins/flutter_compass/ios`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
@@ -185,9 +176,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/ar_flutter_plugin/ios"
   audioplayers:
     :path: ".symlinks/plugins/audioplayers/ios"
-  FirebaseFirestore:
-    :git: https://github.com/invertase/firestore-ios-sdk-frameworks.git
-    :tag: 8.7.0
   Flutter:
     :path: Flutter
   flutter_compass:
@@ -219,11 +207,6 @@ EXTERNAL SOURCES:
   webview_flutter:
     :path: ".symlinks/plugins/webview_flutter/ios"
 
-CHECKOUT OPTIONS:
-  FirebaseFirestore:
-    :git: https://github.com/invertase/firestore-ios-sdk-frameworks.git
-    :tag: 8.7.0
-
 SPEC CHECKSUMS:
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
   ar_flutter_plugin: fa779fae0876f6e5130d3ca122cb429f17e27102
@@ -236,10 +219,9 @@ SPEC CHECKSUMS:
   FirebaseABTesting: e66f1f80747792630d9b292966de206d5df9853b
   FirebaseCore: 4d3c72622ce0e2106aaa07bb4b2935ba2c370972
   FirebaseCoreDiagnostics: d50e11039e5984d92c8a512be2395f13df747350
-  FirebaseFirestore: 0f0d98ab906dbf65c82d070dd1a0c53da48d74dd
   FirebaseInstallations: a58d4f72ec5861840b84df489f2668d970df558a
   FirebaseRemoteConfig: 826fad8bec5ce1912ef97a124d6ec0ce4dcf6ec1
-  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   flutter_compass: cbbd285cea1584c7ac9c4e0c3e1f17cbea55e855
   geolocator_apple: b741765c55dc21950e3e106e8b3584e55cf81ce5
   GLTFSceneKit: d1b437c514ba2aed5555afb0fddd64e030612d57
@@ -268,6 +250,6 @@ SPEC CHECKSUMS:
   wc_flutter_share: b974e046b82a78e409cc65b3550059b5263cd741
   webview_flutter: 3603125dfd3bcbc9d8d418c3f80aeecf331c068b
 
-PODFILE CHECKSUM: ff32d55b5da31c2a3935e5991f640da3ba8acf86
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.10.1

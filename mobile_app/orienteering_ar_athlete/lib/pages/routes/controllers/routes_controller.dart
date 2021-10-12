@@ -144,11 +144,12 @@ class RoutesController extends GetxController {
           routes[i]["route_type"] == "Detective") {
         routes[i]["route_length"] = "0";
       }
+      print(mainController.currentLocation);
       routes[i]["distance_start"] = calculateDistanceMeters(
               double.parse(routes[i]["cps"][0]["lat"]),
               double.parse(routes[i]["cps"][0]["lng"]),
-              mainController.currentLocation.value.latitude!,
-              mainController.currentLocation.value.longitude!)
+              mainController.currentLocation!=null?mainController.currentLocation.value.latitude:0.0,
+              mainController.currentLocation!=null?mainController.currentLocation.value.longitude:0.0)
           .toString();
     }
     setFilterRoutes();
